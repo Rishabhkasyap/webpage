@@ -1,0 +1,123 @@
+*
+{
+    margin: 0;
+    padding: 0;
+   
+}
+body {
+    background-image: url('Assets/background-image.png');
+    background-size: cover;                
+    background-position: center;            
+    background-repeat: no-repeat;           
+    background-attachment: fixed;           
+    margin: 0;                              
+    height: 100vh;                         
+  }
+ .logo
+ {
+  margin-left: 30px;
+  width: 100px;
+  height: 50px;
+
+ }
+ .nevbar
+ {
+  display: flex;
+  justify-content: space-between;
+ }
+  .nav-links
+  {
+    display: flex;
+    justify-content: center; /* Centers items horizontally */
+    align-items: center; 
+    gap: 70px;
+    text-align: center;
+   list-style-type: none;
+    margin-top: 20px;
+   
+   
+   
+  }
+  .nav-links a
+  {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    
+}
+.search
+{
+  margin: 20px;
+}
+
+
+.iservice-button {
+  padding: 8px 12px;
+  background-color: #d90f6d;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  
+}
+.hero
+{
+  object-position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+img{
+  width:700px ;
+  height:650px ;
+  object-fit: cover;
+  
+}
+.left
+{
+  margin-left: 30px;
+}
+.text
+{
+  font-size: 70px;
+}
+.left p
+{
+color: gray;
+margin-top: 20px;
+}
+.button{
+ display: flex;
+ gap: 30px;
+}
+.apply
+{
+  padding: 8px 12px;
+  background-color: #d90f6d;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+}
+.loan
+{
+  padding: 8px 12px;
+  color:#d90f6d;
+  border-radius: 5px;
+  border: 2px solid #d90f6d;
+  cursor: pointer;
+  margin-top: 20px;
+}
+.contact
+{
+  padding: 8px 18px;
+ text-decoration: none;
+ padding: 100px 10px;
+ display: flex;
+ gap: 20px;
+}
+.contact a{
+  text-decoration: none;
+  color: #d90f6d;
+}
